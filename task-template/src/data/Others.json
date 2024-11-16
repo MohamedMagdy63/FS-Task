@@ -1,0 +1,45 @@
+{
+    "data": {
+      "otherData": {
+        "maritalStatus": {
+          "id": "27",
+          "name": "Divorced"
+        },
+        "dependants": 60,
+        "contacts": {
+          "phoneNumber": "+1-555-123-4567",
+          "emailAddress": "zaria.example@email.com"
+        },
+        "addressDetails": {
+          "street": "123 Elm Street",
+          "city": "Giza",
+          "state": "Al Jizah",
+          "country": "Egypt",
+          "postalCode": "12511"
+        },
+        "licenseDetails": {
+          "type": "Driver's License",
+          "issuingAuthority": "Egypt Traffic Authority",
+          "expiryDate": "2026-08-15"
+        },
+        "militaryStatus": {
+          "currentStatus": "Honorably Discharged",
+          "rank": "Sergeant",
+          "branch": "Army"
+        },
+        "emergencyContacts": [
+          {
+            "name": "John Doe",
+            "relationship": "Brother",
+            "phoneNumber": "+1-555-234-5678"
+          },
+          {
+            "name": "Jane Smith",
+            "relationship": "Friend",
+            "phoneNumber": "+1-555-345-6789"
+          }
+        ]
+      }
+    }
+  }
+  

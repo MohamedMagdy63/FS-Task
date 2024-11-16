@@ -1,0 +1,43 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Country {
+  id: ID!
+  name: String!
+}
+
+type LocalizedName {
+  familyName: String!
+  fatherName: String!
+  firstName: String!
+  grandfatherName: String!
+}
+
+type Mutation {
+  updateUser(familyName: String!, fatherName: String!, firstName: String!, grandfatherName: String!, id: String!): User!
+}
+
+type NationalId {
+  expiryDate: String!
+  idNumber: String!
+}
+
+type Nationality {
+  country: Country!
+}
+
+type Query {
+  getUser: User!
+}
+
+type User {
+  familyName: String!
+  fatherName: String!
+  firstName: String!
+  grandfatherName: String!
+  id: ID!
+  localizedName: LocalizedName!
+  nationalId: NationalId!
+  nationalities: [Nationality!]!
+}
